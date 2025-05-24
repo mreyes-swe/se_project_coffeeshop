@@ -13,4 +13,6 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+- Implement responsive design to ensure the page adapts smoothly to different screen sizes, including mobile devices
+- Improve navigation (Make the navigation menu stay visible as users scroll and make it collapsible)
+- Add menu item descriptions that appear when users hover over item names

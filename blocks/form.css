@@ -1,0 +1,79 @@
+form {
+  display: flex;
+  flex-direction: column;
+  width: 385px;
+  max-width: 385px;
+}
+
+.form__fieldset {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.form__label {
+  font-weight: 500;
+}
+
+.form__label_type_checkbox {
+  display: flex;
+  justify-content: center;
+  margin: 32px 0 0;
+  gap: 0 12px;
+}
+
+.form__input {
+  border-radius: 4px;
+  margin: 8px 0 32px;
+  padding: 15px 20px;
+  border: 1px solid #838383;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form__button::placeholder {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.form__input::-webkit-input-placeholder {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.form__input::-moz-placeholder {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.form__button::-ms-input-placeholder {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.form__button {
+  border-radius: 4px;
+  background-color: #1878dc;
+  margin: 0;
+  padding: 20px 0;
+  color: #fff;
+  font-weight: 500;
+  border: none;
+  width: 100%;
+  transition: background-color 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.form__button:hover {
+  background-color: #3f96f3;
+}
+
+.form__checkbox {
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  cursor: pointer;
+}
